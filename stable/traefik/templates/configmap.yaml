@@ -112,7 +112,7 @@ data:
           KeyFile = "{{ $cert.keyFile }}"
           {{- end }}
           {{- end }}
-      {{- end }}
+        {{- end }}
         {{- if .Values.ssl.auth }}
         {{- if .Values.ssl.auth.basic }}
         [entryPoints.https.auth]
